@@ -11,6 +11,17 @@ Application for real time tracking of products feed
 ## Project dependencies
 *   AngularJS,NodeJS, Express, Socket.IO, Webpack, Jasmin, Karma, Mocha
 
+##Features
+
+* Retrieves Products Feed from specified URL and returns retrieved product feed via a websocket connection
+* On the client side, product feed is stored on web brower local storage for future processing 
+* Updated UI with products list 
+* Updates menu with retrieved products categories
+* View List of all products
+* View Selected Product in a modal popup
+* View Products by selected product category
+
+
 #Screen shots
 
 ##List of all products
