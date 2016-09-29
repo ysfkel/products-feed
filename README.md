@@ -25,6 +25,11 @@ Application for real time tracking of products feed
 
 <img width="1440" alt="screen shot 2016-09-29 at 11 30 20 am" src="https://cloud.githubusercontent.com/assets/4597165/18945318/08221ecc-863b-11e6-98d3-7879994a96d0.png">
 
+##Showing selected Educative software product in a modal window
+
+<img width="1440" alt="screen shot 2016-09-29 at 3 23 18 am" src="https://cloud.githubusercontent.com/assets/4597165/18945383/624fc05c-863b-11e6-9baf-211692aa6149.png">
+
+
 
 
 
