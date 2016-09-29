@@ -10,3 +10,8 @@ Application for real time tracking of products feed
 *   run 'npm start' to start the application
 *   open web browser and navigate to 'http://localhost:3000/#/product-list'
 
+## Frameworks and libraries used
+
+*   AngularJS,NodeJS, Express, Socket.IO, Webpack, Jasmin, Karma, Mocha
+
+
