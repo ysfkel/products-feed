@@ -11,6 +11,13 @@ Application for real time tracking of products feed
 *   open web browser and navigate to 'http://localhost:3000/#/product-list'
 
 
+#Screen shots
+
+##List of all products
+
+<img width="1440" alt="screen shot 2016-09-29 at 3 22 48 am" src="https://cloud.githubusercontent.com/assets/4597165/18945172/64b4820c-863a-11e6-90dc-f8b23d6355cf.png">
+
+##Showing selected product in a modal window
 
 <img width="1440" alt="screen shot 2016-09-29 at 3 22 39 am" src="https://cloud.githubusercontent.com/assets/4597165/18945072/c11bae86-8639-11e6-8fef-8796d5323bab.png">
 
