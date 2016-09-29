@@ -21,6 +21,11 @@ Application for real time tracking of products feed
 
 <img width="1440" alt="screen shot 2016-09-29 at 3 22 39 am" src="https://cloud.githubusercontent.com/assets/4597165/18945072/c11bae86-8639-11e6-8fef-8796d5323bab.png">
 
+##Showing products by selected category 
+
+<img width="1440" alt="screen shot 2016-09-29 at 11 30 20 am" src="https://cloud.githubusercontent.com/assets/4597165/18945318/08221ecc-863b-11e6-98d3-7879994a96d0.png">
+
+
 
 
 
