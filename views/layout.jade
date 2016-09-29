@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/lib/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet",href="/lib/bower_components/bootstrap-side-navbar/source/assets/stylesheets/navbar-fixed-side.css")
+    link(rel="stylesheet", href="/lib/bower_components/ng-dialog/css/ngDialog.min.css")
+    link(rel="stylesheet",href="/lib/bower_components/ng-dialog/css/ngDialog-theme-default.min.css")
+  body
+    block content
+    
+    .container-fluid
+    script(src="/socket.io/socket.io.js")
+    script(src="/builds/bundle.js")
+
+    script.

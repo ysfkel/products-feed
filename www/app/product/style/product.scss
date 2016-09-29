@@ -1,0 +1,80 @@
+$brown:#EE3823;
+$brand-blue:#337AB7;
+$pricey:#B53210;
+
+.product-details{
+    margin:40px 0 0 0;
+    width:300px;
+    background: white;
+    position:absolute;
+    z-index:9999999;
+    top:50;
+    cursor:pointer;
+}
+
+
+.prod-desc{
+    outline: 0px;
+    line-height: 21px;
+    text-align: left;
+    margin:0 0 10px 0;
+}
+
+.ngdialog.ngdialog-theme-default{
+    .ngdialog-content{
+         background:white;
+    }
+   
+}
+
+.pricey-red{
+    color:$pricey;
+}
+
+.blue-link{
+    color:$brand-blue;;
+    cursor:pointer;
+}
+
+.price-container{
+        padding: 0px 0px;
+}
+
+.product-title{
+    color:$brand-blue;
+}
+
+.product-list-name{
+    color:$brand-blue;
+}
+
+.brown{
+    color:$brown
+}
+
+.list-item{
+    cursor:pointer;
+}
+
+.index-title{
+   text-transform: uppercase;
+}
+
+.title-cateory{
+    margin:0 0 10px;
+    color:#4B89BF;
+    text-transform:capitalize;
+}
+.separator{
+      margin-top: 6px;
+      
+}
+
+.error-message{
+font-size:11px;
+}
+div.product-details-dialog{
+  div.ngdialog-content{
+     padding:0px;
+  }
+}

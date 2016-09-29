@@ -1,0 +1,50 @@
+<div class="product-details-dialog">
+    <div class="ngdialog-content">
+        <small class="product-title">
+                {{product.name}}
+         </small>
+
+        <div class="thumbnail2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="{{product.imageURL}}" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <small class="price-container">
+                        <span>Price:</span><span class="pricey-red"> {{product.price.$t}} {{product.price.currency}}</span>
+
+                    </small>
+                    <small>
+                        <span><a href="{{product.productURL}}">Product page</a></span>
+                    </small>
+
+                </div>
+            </div>
+   <hr>
+            <div class="row">
+                <div class="col-md-12">
+                 <small class="prod-desc">
+                    
+        
+                        {{product.description  | limitTo:textLimit}}
+                        <p>
+                                <span ng-if="textLimit===initialTextLength && product.description.length>initialTextLength" class="blue-link" ng-click="showmore(product.description.length)"> show more..</span>
+                        <span ng-if="textLimit>initialTextLength" class="blue-link" ng-click="showmore(initialTextLength)"> show less..</span>
+                        </p>
+                
+                </small>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div>

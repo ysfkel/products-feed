@@ -1,0 +1,39 @@
+<div class="row">
+
+    <div class="col-lg-8">
+        <div class="input-group">
+            <input type="text" class="form-control" ng-model="$prCtr.collection.url"  placeholder="enter products url">
+            <span class="input-group-btn">
+                {{$prCtr.collection.url}}
+        <button class="btn btn-primary" type="button"  ng-click="$prCtr.fetchProducts()">Load Products</button>
+      </span>
+        </div>
+
+    </div>
+</div>
+<span class="error-message">{{ $prCtr.message}}</span>
+<hr class="separator"/>
+
+<div class="row">
+    <div class="col-md-12 title-cateory">
+       <span> {{$prCtr.category}}</span>
+    </div>
+</div>
+<div class="row">
+
+<div ng-repeat="product in $prCtr.collection.data" ng-click="$prCtr.getProductById(product._id)" class="list-item">
+    <div ng-class="{ 'row': ($index + 1) % 4 == 0 }">
+        <div class="col-md-2 col-lg-2">
+            <div class="thumbnail">
+
+                <img src="{{product.imageURL}}" alt="">
+
+                <small class="product-list-name" >
+                {{product.name | limitTo:20}}
+              </small>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
