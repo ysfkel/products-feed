@@ -2,7 +2,6 @@
 var express = require('express');
 var app = express();
 require('./app.settings')(app);
-require('./app.server')(app);
 require('./app.middleware')(app, express);
 
 app.get('/', function (req, res) {
