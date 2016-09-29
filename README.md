@@ -9,7 +9,7 @@ Application for real time tracking of products feed
 *   open web browser and navigate to 'http://localhost:3000/#/product-list'
 
 ## Project dependencies
-*   AngularJS,NodeJS, Express, Socket.IO, Webpack, Jasmin, Karma, Mocha etc
+*   AngularJS,NodeJS, Express, Socket.IO, Webpack, Jasmin, Karma, Mocha,Twitter Bootstrap etc
 
 ##Features
 
